@@ -1,0 +1,294 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "user": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "nda_signed": {
+          "type": "boolean"
+        },
+        "source": {
+          "type": "string"
+        },
+        "phone_number": {
+          "type": "string"
+        },
+        "signup_stage": {
+          "type": "null"
+        },
+        "utm_source": {
+          "type": "null"
+        },
+        "utm_campaign": {
+          "type": "null"
+        },
+        "utm_medium": {
+          "type": "null"
+        },
+        "pm_dashboard_token": {
+          "type": "null"
+        },
+        "user_type": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string"
+        },
+        "address_disabled": {
+          "type": "boolean"
+        },
+        "organisation": {
+          "type": "null"
+        },
+        "billing_entity": {
+          "type": "null"
+        },
+        "bant_answers": {
+          "type": "null"
+        },
+        "spec_call_nda_signed": {
+          "type": "null"
+        },
+        "enterprise_lead": {
+          "type": "null"
+        },
+        "profile_image": {
+          "type": "null"
+        },
+        "referral_code": {
+          "type": "string"
+        },
+        "price_multiplier": {
+          "type": "number"
+        },
+        "enable_referral_code": {
+          "type": "boolean"
+        },
+        "region": {
+          "type": "null"
+        },
+        "sub_region": {
+          "type": "null"
+        },
+        "message_preferences": {
+          "type": "null"
+        },
+        "user_profiles": {
+          "type": "array",
+          "items": {}
+        },
+        "authtoken": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "attributes": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "exchange_rate": {
+                      "type": "number"
+                    },
+                    "multiplier": {
+                      "type": "number"
+                    },
+                    "symbol": {
+                      "type": "string"
+                    },
+                    "country_code": {
+                      "type": "string"
+                    },
+                    "default_store_promo_code": {
+                      "type": "string"
+                    },
+                    "specing_price": {
+                      "type": "number"
+                    },
+                    "icon_image_file_url": {
+                      "type": "string"
+                    },
+                    "instant_spec_price": {
+                      "type": "number"
+                    },
+                    "tax": {
+                      "type": "integer"
+                    },
+                    "custom_prototype_price": {
+                      "type": "number"
+                    },
+                    "post_upfront_price": {
+                      "type": "number"
+                    },
+                    "tax_type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "code",
+                    "exchange_rate",
+                    "multiplier",
+                    "symbol",
+                    "country_code",
+                    "default_store_promo_code",
+                    "specing_price",
+                    "icon_image_file_url",
+                    "instant_spec_price",
+                    "tax",
+                    "custom_prototype_price",
+                    "post_upfront_price",
+                    "tax_type"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "attributes"
+              ]
+            }
+          },
+          "required": [
+            "data"
+          ]
+        },
+        "roles": {
+          "type": "string"
+        },
+        "running_project_count": {
+          "type": "integer"
+        },
+        "external_billing_accounts": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "data"
+          ]
+        },
+        "vip": {
+          "type": "boolean"
+        },
+        "setting": {
+          "type": "object",
+          "properties": {
+            "avatar_details": {
+              "type": "object",
+              "properties": {
+                "color_codes": {
+                  "type": "object",
+                  "properties": {
+                    "background": {
+                      "type": "string"
+                    },
+                    "chat_handle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "background",
+                    "chat_handle"
+                  ]
+                },
+                "initials": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "color_codes",
+                "initials"
+              ]
+            }
+          },
+          "required": [
+            "avatar_details"
+          ]
+        },
+        "company_id": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "id",
+        "first_name",
+        "last_name",
+        "email",
+        "nda_signed",
+        "source",
+        "phone_number",
+        "signup_stage",
+        "utm_source",
+        "utm_campaign",
+        "utm_medium",
+        "pm_dashboard_token",
+        "user_type",
+        "origin",
+        "address_disabled",
+        "organisation",
+        "billing_entity",
+        "bant_answers",
+        "spec_call_nda_signed",
+        "enterprise_lead",
+        "profile_image",
+        "referral_code",
+        "price_multiplier",
+        "enable_referral_code",
+        "region",
+        "sub_region",
+        "message_preferences",
+        "user_profiles",
+        "authtoken",
+        "currency",
+        "roles",
+        "running_project_count",
+        "external_billing_accounts",
+        "vip",
+        "setting",
+        "company_id"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "user",
+    "message"
+  ]
+}

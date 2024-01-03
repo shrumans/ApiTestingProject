@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "freemium_build_card": {
+      "type": "array",
+      "items": {}
+    },
+    "build_card_count": {
+      "type": "object",
+      "properties": {
+        "project_completed": {
+          "type": "integer"
+        },
+        "completed": {
+          "type": "integer"
+        },
+        "incomplete": {
+          "type": "integer"
+        },
+        "running": {
+          "type": "integer"
+        },
+        "invited": {
+          "type": "integer"
+        },
+        "archived": {
+          "type": "integer"
+        },
+        "prototype": {
+          "type": "integer"
+        },
+        "custom_prototype": {
+          "type": "integer"
+        },
+        "tailor_made_prototype": {
+          "type": "integer"
+        },
+        "freemium": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "project_completed",
+        "completed",
+        "incomplete",
+        "running",
+        "invited",
+        "archived",
+        "prototype",
+        "custom_prototype",
+        "tailor_made_prototype",
+        "freemium"
+      ]
+    }
+  },
+  "required": [
+    "freemium_build_card",
+    "build_card_count"
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-03T12:51:34 IST" name="Default suite" finished-at="2024-01-03T12:51:38 IST" duration-ms="3292">
+    <groups>
+    </groups>
+    <test started-at="2024-01-03T12:51:34 IST" name="Default test" finished-at="2024-01-03T12:51:38 IST" duration-ms="3292">
+      <class name="simplilearn.p3assignment.EndtoEndtests">
+        <test-method is-config="true" signature="testregisterapi()[pri:0, instance:simplilearn.p3assignment.EndtoEndtests@707b1a44]" started-at="2024-01-03T12:51:22 IST" name="testregisterapi" finished-at="2024-01-03T12:51:32 IST" duration-ms="9615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testregisterapi -->
+        <test-method is-config="true" signature="testloginapi()[pri:0, instance:simplilearn.p3assignment.EndtoEndtests@707b1a44]" started-at="2024-01-03T12:51:32 IST" name="testloginapi" finished-at="2024-01-03T12:51:34 IST" depends-on-methods="simplilearn.p3assignment.Baseclasstest.testregisterapi" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloginapi -->
+        <test-method signature="testupdateprofileapi()[pri:0, instance:simplilearn.p3assignment.EndtoEndtests@707b1a44]" started-at="2024-01-03T12:51:34 IST" name="testupdateprofileapi" finished-at="2024-01-03T12:51:36 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testupdateprofileapi -->
+        <test-method signature="testdashboardapi()[pri:1, instance:simplilearn.p3assignment.EndtoEndtests@707b1a44]" started-at="2024-01-03T12:51:36 IST" name="testdashboardapi" finished-at="2024-01-03T12:51:38 IST" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdashboardapi -->
+      </class> <!-- simplilearn.p3assignment.EndtoEndtests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
